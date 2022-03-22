@@ -2,9 +2,9 @@ import LanguageIcon from "../assets/languageIcon.svg";
 import ProfileIcon from "../assets/profileIcon.svg";
 const Navbar = () => {
   return (
-    <div className="w-full pr-3 pt-1 pb-1 flex flex-row justify-end">
-      <img className="max-h-8" src={LanguageIcon} alt="languageIcon" />
-      <img className="max-h-8" src={ProfileIcon} alt="languageIcon" />
+    <div className="w-full fixed pr-3 top-1 bg-black flex flex-row justify-end gap-1">
+      <img className="max-h-6" src={LanguageIcon} alt="languageIcon" />
+      <img className="max-h-6" src={ProfileIcon} alt="languageIcon" />
     </div>
   );
 };
