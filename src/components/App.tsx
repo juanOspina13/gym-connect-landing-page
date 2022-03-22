@@ -2,6 +2,7 @@
 import styled from 'styled-components';
 import './App.css'
 import Main from './Main';
+import '../styles/tailwindstyles.css';
 
 const WelcomeMessageComponent = styled.header`
   display: flex;
