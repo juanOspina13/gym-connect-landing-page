@@ -8,7 +8,7 @@ const Main = () => {
 
         <MainWrapper>
             <Header></Header>
-            <MainContainer><Intro></Intro>
+            <MainContainer className="w-4/5"><Intro></Intro>
                 <Entrenamientos></Entrenamientos>
                 {/*
         <Crossfit></Crossfit>
