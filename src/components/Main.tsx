@@ -1,21 +1,27 @@
+import { Parallax, ParallaxProvider, useParallax } from "react-scroll-parallax";
 import Entrenamientos from "./Entrenamientos";
 import Header from "./Header";
 import Intro from "./Intro";
-import { MainContainer, MainWrapper } from "./MainStyles"
+import Logo from "./Logo";
+import { MainContainer, MainWrapper } from "./MainStyles";
 
 const Main = () => {
-    return (
+  return (
+    <ParallaxProvider>
+      <MainWrapper>
+        <Header></Header>
+        <div>
+            <Logo></Logo>
+            <Intro></Intro>
+          <Entrenamientos></Entrenamientos>
 
-        <MainWrapper>
-            <Header></Header>
-            <MainContainer className="w-4/5"><Intro></Intro>
-                <Entrenamientos></Entrenamientos>
-                {/*
+          {/*
         <Crossfit></Crossfit>
         */}
-            </MainContainer>
-        </MainWrapper>
-    )
-}
+        </div>
+      </MainWrapper>
+    </ParallaxProvider>
+  );
+};
 
 export default Main;
