@@ -49,15 +49,15 @@ const Entrenamientos = () => {
       <div className="w-4/5 ">
       <Parallax className="flex flex-col items-center" speed={-20}>
       <h1 className="title">Entrenamientos</h1>
-      <div className="dia-entreno-container w-full flex gap-6">
+      <div className="dia-entreno-container w-full flex flex-col md:flex-row gap-6">
         {entrenos.map((entreno) => {
           return (
             <div
-              className="dia-entreno flex w-1/6 h-64 relative"
+              className="dia-entreno flex w-1/2 md:w-1/6 h-12 md:h-64 relative"
               style={{ backgroundImage: `url(${entreno.fondo})` }}
               key={entreno.id}
             >
-              <div className="bg-[#F2FF04] flex justify-center items-center font-bold w-full h-16 text-black uppercase absolute top-[68%]">
+              <div className="bg-[#F2FF04]  md:flex justify-center items-center font-bold w-full h-16 text-black uppercase absolute left-[100%] md:left-[0] md:top-[68%]">
                 {entreno.titulo}
               </div>
             </div>
