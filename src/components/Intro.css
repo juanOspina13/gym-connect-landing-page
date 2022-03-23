@@ -1,0 +1,7 @@
+.card-content{
+    background: black url("../assets/backgroundIntro.png") no-repeat fixed center; 
+}
+
+.intro-container{
+    background: black url("../assets/backgroundTexture.png") no-repeat fixed center; 
+}
