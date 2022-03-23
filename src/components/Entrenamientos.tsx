@@ -57,7 +57,7 @@ const Entrenamientos = () => {
               style={{ backgroundImage: `url(${entreno.fondo})` }}
               key={entreno.id}
             >
-              <div className="bg-[#F2FF04] flex justify-center items-center font-bold w-full h-12 text-black uppercase absolute inset-y-1/2">
+              <div className="bg-[#F2FF04] flex justify-center items-center font-bold w-full h-16 text-black uppercase absolute top-[68%]">
                 {entreno.titulo}
               </div>
             </div>
