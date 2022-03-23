@@ -12,8 +12,7 @@ const Intro = () => {
           <div className="card-content md:w-2/3 pl-8 pr-8 pt-16 pb-16">
             Potencia tu centro fitness, acércate más a tus clientes y mejora su
             experiencia de reserva. Mantén tu comunidad conectada y empieza a
-            monetizar tus entrenamientos online. $130,000 COP / Mensual. Sin
-            instalaciones. Sin cobros de licencias. Soporte en Colombia.
+            monetizar tus entrenamientos. Sin cobros de licencias. Soporte en Colombia.
           </div>
         </Parallax>
       </div>
