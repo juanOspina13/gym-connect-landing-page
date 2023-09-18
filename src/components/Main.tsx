@@ -11,8 +11,8 @@ const Main = () => {
       <MainWrapper>
         <Header></Header>
         <div>
-            <Logo></Logo>
-            <Intro></Intro>
+          <Logo></Logo>
+          <Intro></Intro>
           <Entrenamientos></Entrenamientos>
 
           {/*
